@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "Unveiling the Power of APIs",
+      "content": "Hi there!"
+    },
+    {
+      "id": 2,
+      "title": "JSON Server: A Developer's Best Friend",
+      "content": "Hey! Have a great day"
+    },
+    {
+      "id": 3,
+      "title": "Explore the possibilities of Next.js",
+      "content": "Take advantage of its server-side rendering capabilities and effortless development."
+    },
+    {
+      "id": 4,
+      "title": "Enhance your UI with Tailwind CSS",
+      "content": "Streamline your styling process with its utility-first approach."
+    },
+    {
+      "id": 5,
+      "title": "Unlock the power of TypeScript",
+      "content": "Harness the benefits of static typing and catch bugs before they impact your users."
+    }
+  ]
+}
