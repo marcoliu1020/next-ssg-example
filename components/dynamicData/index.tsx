@@ -1,6 +1,6 @@
 type Props = {};
 export default async function DynamicData({}: Props) {
-  await sleep(2);
+  await sleep(3);
 
   return (
     <>
@@ -14,5 +14,5 @@ export default async function DynamicData({}: Props) {
 }
 
 function sleep(seconds: number) {
-  return new Promise((resolve) => setTimeout(resolve, seconds * 3000));
+  return new Promise((resolve) => setTimeout(resolve, seconds * 1000));
 }
