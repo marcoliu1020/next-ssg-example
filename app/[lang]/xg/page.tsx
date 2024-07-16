@@ -18,9 +18,9 @@ export default function XgPage({ params }: Props) {
         <DynamicData />
       </Suspense>
 
-      <Suspense fallback={<Loading />}>
+      {/* <Suspense fallback={<Loading />}> */}
         <Covers lang={lang} />
-      </Suspense>
+      {/* </Suspense> */}
     </main>
   );
 }
