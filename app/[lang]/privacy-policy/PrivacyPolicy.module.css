@@ -1,0 +1,51 @@
+.PrivacyPolicy {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.PrivacyPolicy h1 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.PrivacyPolicy h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.PrivacyPolicy h3 {
+  font-size: 1.2em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.PrivacyPolicy p {
+  margin-bottom: 1em;
+}
+
+.PrivacyPolicy ul,
+.PrivacyPolicy ol {
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+.PrivacyPolicy li {
+  margin-bottom: 0.5em;
+}
+
+.PrivacyPolicy a {
+  text-decoration: none;
+}
+
+.PrivacyPolicy a:hover {
+  text-decoration: underline;
+}
+
+.PrivacyPolicy strong {
+  font-weight: bold;
+}
+
+.PrivacyPolicy em {
+  font-style: italic;
+}
