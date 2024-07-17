@@ -1,3 +1,5 @@
+import styles from "./PrivacyPolicy.module.css";
+
 type Props = { params: { lang: string } };
 export default async function PrivacyPolicyPage({ params }: Props) {
   const { lang } = params;
@@ -20,5 +22,10 @@ export default async function PrivacyPolicyPage({ params }: Props) {
   const data = await response.json();
   const content = data?.data?.helpCenterText?.content;
 
-  return <div dangerouslySetInnerHTML={{ __html: content }}></div>;
+  return (
+    <div
+      className={styles.PrivacyPolicy}
+      dangerouslySetInnerHTML={{ __html: content }}
+    ></div>
+  );
 }
